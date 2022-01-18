@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<title>Timer</title>
+
+<body>
+
+
+<script>
+ 
+    var s=function(){
+
+      
+            window.setTimeout(() => {
+                var id=document.getElementById('count')
+                var counter=10;
+                
+                //counter= counter-1;
+                
+                
+                if(counter!=0){
+                    id.innerHTML=counter-1
+
+                }
+                console.log(counter)
+                setTimeout(()=> {
+                    const c=counter
+                    console.log(c)
+                    id.innerHTML=c-2
+
+                },2000);
+              
+                setTimeout(()=> {
+                    const c1=counter
+                    console.log(c1)
+                    id.innerHTML=c1-3
+
+                },3000);
+
+
+
+                setTimeout(()=> {
+                    const c2=counter
+                    console.log(c2)
+                    id.innerHTML=c2-4
+
+                },4000);
+
+
+
+                setTimeout(()=> {
+                    const c3=counter
+                    console.log(c3)
+                    id.innerHTML=c3-5
+
+                },5000);
+
+
+
+                setTimeout(()=> {
+                    const c4=counter
+                    console.log(c4)
+                    id.innerHTML=c4-6
+
+                },6000);
+
+
+                setTimeout(()=> {
+                    const c5=counter
+                    console.log(c5)
+                    id.innerHTML=c5-7
+
+                },7000);
+
+                setTimeout(()=> {
+                    const c6=counter
+                    console.log(c6)
+                    id.innerHTML=c6-8
+
+                },8000);
+
+
+                setTimeout(()=> {
+                    const c7=counter
+                    console.log(c7)
+                    id.innerHTML=c7-9
+
+                },9000);
+
+                
+                setTimeout(()=> {
+                    const c8=counter
+                    console.log(c8)
+                    id.innerHTML=c8-10
+
+                    
+                },10000);
+                
+                setTimeout(()=> {
+                    const c9=counter
+                    console.log(c9)
+                    id.innerHTML="Happy Independance Day"
+
+                    
+                },11000);
+               
+
+            }, 1000);
+            
+    
+    
+     
+     
+     
+        }
+        s.call()
+        s.call()
+       
+      
+    
+
+    
+  
+    
+   
+
+</script>
+
+
+
+ <div class="container-fluid" style="border: 1px solid black; margin-top: 200px;">
+  <div class="row">
+   <div class="col-md">
+      <h3 class="text"  id="count"style="font-size: 100px; display: flex;background-color: blue;justify-content: center;padding: 5px;margin: 5px; ">10 </h3>
+
+   </div>   
+
+  </div>
+ </div>
+</body>
